@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useLogin } from "./Service/Mutation/useLogin";
-import { saveState } from "../../Config/storage";
+import { saveState } from "../../Config/Storage";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
