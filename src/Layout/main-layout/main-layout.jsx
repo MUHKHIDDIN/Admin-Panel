@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, Navigate, Link } from "react-router-dom";
-import { loadState } from "../../Config/storage";
+import { loadState } from "../../Config/Storage";
 import { IoCreateSharp } from "react-icons/io5";
 import { FaHome, FaListUl, FaBox, FaPlusCircle } from "react-icons/fa";
 import {Header} from "../header/header";
